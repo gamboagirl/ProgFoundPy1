@@ -8,6 +8,7 @@ break_cnt = 0; # current break count
 print("This program started on " + time.ctime())
 
 # run this the number of total breaks
+while (break_cnt < breaks):
     # sleep for 2 hours (7200 seconds) between loops
     time.sleep(7200)
     # open the web browser to a Rick roll
